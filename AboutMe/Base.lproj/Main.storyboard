@@ -57,12 +57,21 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFI-RN-yUw">
+                                <rect key="frame" x="159.5" y="791" width="95" height="30"/>
+                                <state key="normal" title="Introduce self"/>
+                                <connections>
+                                    <action selector="introduceSelfButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tfo-5q-I2v"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tiv-Sc-lv5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8pr-cL-0gG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iFI-RN-yUw" secondAttribute="bottom" constant="41" id="b9Q-tK-XTd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tiv-Sc-lv5" secondAttribute="trailing" constant="16" id="bsp-LH-ht1"/>
                             <constraint firstItem="tiv-Sc-lv5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="nLa-jX-5h3"/>
+                            <constraint firstItem="iFI-RN-yUw" firstAttribute="centerX" secondItem="tiv-Sc-lv5" secondAttribute="centerX" id="rhk-wg-xtK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tiv-Sc-lv5" secondAttribute="bottom" constant="753" id="ymY-J3-dNM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
